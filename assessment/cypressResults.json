@@ -40,7 +40,7 @@
     "numTestsKeptInMemory": 0,
     "platform": "win32",
     "pageLoadTimeout": 60000,
-    "port": 50566,
+    "port": 51119,
     "projectId": null,
     "redirectionLimit": 20,
     "reporter": "spec",
@@ -108,7 +108,7 @@
     "cypressInternalEnv": "production"
   },
   "cypressVersion": "13.17.0",
-  "endedTestsAt": "2025-07-19T05:37:22.500Z",
+  "endedTestsAt": "2025-07-19T06:02:12.937Z",
   "osName": "win32",
   "osVersion": "10.0.26120",
   "runs": [
@@ -118,22 +118,14 @@
       "reporterStats": {
         "suites": 1,
         "tests": 10,
-        "passes": 9,
+        "passes": 10,
         "pending": 0,
-        "failures": 1,
-        "start": "2025-07-19T05:37:07.337Z",
-        "end": "2025-07-19T05:37:22.503Z",
-        "duration": 15166
+        "failures": 0,
+        "start": "2025-07-19T06:01:58.761Z",
+        "end": "2025-07-19T06:02:12.940Z",
+        "duration": 14179
       },
-      "screenshots": [
-        {
-          "height": 720,
-          "name": null,
-          "path": "C:\\Users\\user\\Downloads\\me_mern_xexit_module_one_stub-master\\me_mern_xexit_module_one_stub-master\\assessment\\cypress\\screenshots\\spec.cy.js\\Health And Fitness Tracker Tests -- Should Only Show Last Weeks data in the Weekly Health Trends (failed).png",
-          "takenAt": "2025-07-19T05:37:14.785Z",
-          "width": 1280
-        }
-      ],
+      "screenshots": [],
       "spec": {
         "absolute": "C:/Users/user/Downloads/me_mern_xexit_module_one_stub-master/me_mern_xexit_module_one_stub-master/assessment/cypress/e2e/spec.cy.js",
         "fileExtension": ".js",
@@ -142,13 +134,13 @@
         "relative": "cypress\\e2e\\spec.cy.js"
       },
       "stats": {
-        "duration": 15167,
-        "endedAt": "2025-07-19T05:37:22.500Z",
-        "failures": 1,
-        "passes": 9,
+        "duration": 14181,
+        "endedAt": "2025-07-19T06:02:12.937Z",
+        "failures": 0,
+        "passes": 10,
         "pending": 0,
         "skipped": 0,
-        "startedAt": "2025-07-19T05:37:07.333Z",
+        "startedAt": "2025-07-19T06:01:58.756Z",
         "suites": 1,
         "tests": 10
       },
@@ -160,7 +152,7 @@
             }
           ],
           "displayError": null,
-          "duration": 265,
+          "duration": 739,
           "state": "passed",
           "title": [
             "Health And Fitness Tracker Tests",
@@ -174,7 +166,7 @@
             }
           ],
           "displayError": null,
-          "duration": 152,
+          "duration": 394,
           "state": "passed",
           "title": [
             "Health And Fitness Tracker Tests",
@@ -188,7 +180,7 @@
             }
           ],
           "displayError": null,
-          "duration": 237,
+          "duration": 722,
           "state": "passed",
           "title": [
             "Health And Fitness Tracker Tests",
@@ -202,7 +194,7 @@
             }
           ],
           "displayError": null,
-          "duration": 160,
+          "duration": 172,
           "state": "passed",
           "title": [
             "Health And Fitness Tracker Tests",
@@ -212,12 +204,12 @@
         {
           "attempts": [
             {
-              "state": "failed"
+              "state": "passed"
             }
           ],
-          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected not to find content: 'Weekly Health Trends' but continuously found it.\n    at Context.eval (webpack://health-and-fitness-tracker/./cypress/e2e/spec.cy.js:46:40)",
-          "duration": 5324,
-          "state": "failed",
+          "displayError": null,
+          "duration": 1722,
+          "state": "passed",
           "title": [
             "Health And Fitness Tracker Tests",
             "Should Only Show Last Weeks data in the Weekly Health Trends"
@@ -230,7 +222,7 @@
             }
           ],
           "displayError": null,
-          "duration": 1220,
+          "duration": 1499,
           "state": "passed",
           "title": [
             "Health And Fitness Tracker Tests",
@@ -244,7 +236,7 @@
             }
           ],
           "displayError": null,
-          "duration": 2345,
+          "duration": 2554,
           "state": "passed",
           "title": [
             "Health And Fitness Tracker Tests",
@@ -258,7 +250,7 @@
             }
           ],
           "displayError": null,
-          "duration": 1266,
+          "duration": 1275,
           "state": "passed",
           "title": [
             "Health And Fitness Tracker Tests",
@@ -272,7 +264,7 @@
             }
           ],
           "displayError": null,
-          "duration": 1245,
+          "duration": 1323,
           "state": "passed",
           "title": [
             "Health And Fitness Tracker Tests",
@@ -286,7 +278,7 @@
             }
           ],
           "displayError": null,
-          "duration": 1456,
+          "duration": 1749,
           "state": "passed",
           "title": [
             "Health And Fitness Tracker Tests",
@@ -297,10 +289,10 @@
       "video": null
     }
   ],
-  "startedTestsAt": "2025-07-19T05:37:07.333Z",
-  "totalDuration": 15167,
-  "totalFailed": 1,
-  "totalPassed": 9,
+  "startedTestsAt": "2025-07-19T06:01:58.756Z",
+  "totalDuration": 14181,
+  "totalFailed": 0,
+  "totalPassed": 10,
   "totalPending": 0,
   "totalSkipped": 0,
   "totalSuites": 1,

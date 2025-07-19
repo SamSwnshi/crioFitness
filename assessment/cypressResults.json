@@ -1,0 +1,308 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "118.0.5993.159",
+  "config": {
+    "projectRoot": "C:\\Users\\user\\Downloads\\me_mern_xexit_module_one_stub-master\\me_mern_xexit_module_one_stub-master\\assessment",
+    "projectName": "assessment",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "baseUrl": null,
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultBrowser": null,
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\Users\\user\\Downloads\\me_mern_xexit_module_one_stub-master\\me_mern_xexit_module_one_stub-master\\assessment\\cypress\\downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalJustInTimeCompile": false,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\Users\\user\\Downloads\\me_mern_xexit_module_one_stub-master\\me_mern_xexit_module_one_stub-master\\assessment",
+    "fixturesFolder": "C:\\Users\\user\\Downloads\\me_mern_xexit_module_one_stub-master\\me_mern_xexit_module_one_stub-master\\assessment\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 50566,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "22.15.0",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\Users\\user\\Downloads\\me_mern_xexit_module_one_stub-master\\me_mern_xexit_module_one_stub-master\\assessment\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\Users\\user\\Downloads\\me_mern_xexit_module_one_stub-master\\me_mern_xexit_module_one_stub-master\\assessment\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\Users\\user\\Downloads\\me_mern_xexit_module_one_stub-master\\me_mern_xexit_module_one_stub-master\\assessment\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "138",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "138.0.7204.158"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "139",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "139.0.3405.42"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 118,
+        "name": "electron",
+        "path": "",
+        "version": "118.0.5993.159"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\user\\AppData\\Local\\Cypress\\Cache\\13.17.0\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.17.0",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.17.0",
+  "endedTestsAt": "2025-07-19T05:37:22.500Z",
+  "osName": "win32",
+  "osVersion": "10.0.26120",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 10,
+        "passes": 9,
+        "pending": 0,
+        "failures": 1,
+        "start": "2025-07-19T05:37:07.337Z",
+        "end": "2025-07-19T05:37:22.503Z",
+        "duration": 15166
+      },
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\Users\\user\\Downloads\\me_mern_xexit_module_one_stub-master\\me_mern_xexit_module_one_stub-master\\assessment\\cypress\\screenshots\\spec.cy.js\\Health And Fitness Tracker Tests -- Should Only Show Last Weeks data in the Weekly Health Trends (failed).png",
+          "takenAt": "2025-07-19T05:37:14.785Z",
+          "width": 1280
+        }
+      ],
+      "spec": {
+        "absolute": "C:/Users/user/Downloads/me_mern_xexit_module_one_stub-master/me_mern_xexit_module_one_stub-master/assessment/cypress/e2e/spec.cy.js",
+        "fileExtension": ".js",
+        "fileName": "spec",
+        "name": "spec.cy.js",
+        "relative": "cypress\\e2e\\spec.cy.js"
+      },
+      "stats": {
+        "duration": 15167,
+        "endedAt": "2025-07-19T05:37:22.500Z",
+        "failures": 1,
+        "passes": 9,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-07-19T05:37:07.333Z",
+        "suites": 1,
+        "tests": 10
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 265,
+          "state": "passed",
+          "title": [
+            "Health And Fitness Tracker Tests",
+            "should load the home page correctly"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 152,
+          "state": "passed",
+          "title": [
+            "Health And Fitness Tracker Tests",
+            "should display Form Title and a Button to Open Form"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 237,
+          "state": "passed",
+          "title": [
+            "Health And Fitness Tracker Tests",
+            "should have a button to add data and it should be styled correctly"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 160,
+          "state": "passed",
+          "title": [
+            "Health And Fitness Tracker Tests",
+            "should be responsive for mobile view"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected not to find content: 'Weekly Health Trends' but continuously found it.\n    at Context.eval (webpack://health-and-fitness-tracker/./cypress/e2e/spec.cy.js:46:40)",
+          "duration": 5324,
+          "state": "failed",
+          "title": [
+            "Health And Fitness Tracker Tests",
+            "Should Only Show Last Weeks data in the Weekly Health Trends"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1220,
+          "state": "passed",
+          "title": [
+            "Health And Fitness Tracker Tests",
+            "Adds data successfully"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 2345,
+          "state": "passed",
+          "title": [
+            "Health And Fitness Tracker Tests",
+            "Displays added Trends in the Recent Health Statistics"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1266,
+          "state": "passed",
+          "title": [
+            "Health And Fitness Tracker Tests",
+            "Displays Calories Intake in the Recent Health Statistics"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1245,
+          "state": "passed",
+          "title": [
+            "Health And Fitness Tracker Tests",
+            "Displays Calories Burned in the Recent Health Statistics"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1456,
+          "state": "passed",
+          "title": [
+            "Health And Fitness Tracker Tests",
+            "Persists data in localStorage"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2025-07-19T05:37:07.333Z",
+  "totalDuration": 15167,
+  "totalFailed": 1,
+  "totalPassed": 9,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 1,
+  "totalTests": 10
+}

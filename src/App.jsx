@@ -89,7 +89,7 @@ const App = () => {
               <AddDataCard onAdd={openAddModal} />
             </div>
             <div className="main-col main-col-60">
-              <WeeklyTrendsChart data={lastWeekData} />
+              {lastWeekData.length > 0 && <WeeklyTrendsChart data={lastWeekData} />}
             </div>
           </div>
           <div className="main-row">
